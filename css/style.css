@@ -126,7 +126,44 @@ h1
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+
+h2
+{
+	font-size: 150%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
 .div-space
 {
 	height: 60px;
+}
+.div-space-little
+{
+	height: 20px;
+}
+.progress
+{
+	height: 19px;
+}
+
+.progressbar-suck
+{
+	background-color: rgb(100,149,237);
+	font-size: 15px;
+}
+.progressbar-little
+{
+	background-color: rgb(65,105,225);
+	font-size: 15px;
+}
+.progressbar-good
+{
+	background-color: rgb(0, 0, 255);
+	font-size: 15px;
+}
+.progressbar-guru
+{
+	background-color: rgb(25,25,112);
+	font-size: 15px;
 }
