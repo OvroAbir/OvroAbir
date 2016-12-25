@@ -97,6 +97,14 @@ myspan
 {
 	color: rgb(206, 165, 37);
 	font-size: 66px;
+	animation-name: myname-animation;
+	animation-duration: 2s;
+	animation-iteration-count: infinite; 
+}
+@keyframes myname-animation
+{
+	from{color: yellow;}
+	to{color: blue;}
 }
 
 
