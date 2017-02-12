@@ -1,6 +1,6 @@
 body
 {
-	background-color: rgb(10, 10, 10);
+	/*background-color: rgb(10, 10, 10);*/
 }
 .jumbotronMy
 {
@@ -125,8 +125,8 @@ myspan
 
 .education-link:hover
 {
-	font-size: 104%;
-	color: white;
+	font-size: 102%;
+	color: rgb(255, 153, 255);
 }
 h1
 {
