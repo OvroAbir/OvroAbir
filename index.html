@@ -31,6 +31,7 @@
 
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/image-hover.css">
+    <link rel="stylesheet" type="text/css" href="css/loader-animation.css">
 
 
     <link href="img/tab-logo.png" rel="icon">
@@ -41,6 +42,29 @@
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-left">
+
+<!-- Page Loader
+========================================================= -->
+<div class="loader-container" id="page-loader"> 
+  <div class="loading-wrapper">
+  	<div class="loader-animation" id="loader-animation-id">
+  		<span class="loader"><span class="loader-inner"></span></span>
+  	</div>    
+    <!-- Edit With Your Name -->
+    <div class="loader-name" id="loader-name">
+      <strong>Joy</strong> Ghosh
+    </div>
+    <!-- /Edit With Your Name -->
+    <!-- Edit With Your Job -->
+    <p class="loader-job" id="loader-job">Software Engineer</p>
+    <!-- /Edit With Your Job -->
+  </div>   
+</div>
+<!-- /End of Page loader
+========================================================= -->
+
+
+
     <div class="container">
         <div class="row" id="master-row">
             <div class="col-lg-2">
@@ -179,7 +203,7 @@
                 <div id="skill" class="jumbotronMy" data-aos="slide-left">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-10">
+                            <div class="col-lg-12">
                                 <div class="text-center">
                                     <h1>Skills</h1>
 

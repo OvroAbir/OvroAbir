@@ -1,4 +1,23 @@
 
+$(window).load(function(){
+  //==============___Page Loader___================
+
+  $('#page-loader').delay(300).fadeOut(400, function(){});
+
+  $('#loader-name').addClass('loader-left');
+  $('#loader-job').addClass('loader-right');
+  $('#loader-animation-id').addClass('loader-hide');
+});
+
+//Begin - Document Ready
+$(document).ready(function(){
+
+//==============___Page Loader___================
+  $('#loading-wraper').fadeIn(300);
+});
+
+
+
 //navbar active color
 $(".sidebar-nav a").on("click", function(){
    $(".sidebar-nav").find(".nav-active").removeClass("nav-active");
@@ -25,3 +44,4 @@ $(".jumbotronMy").mouseenter(function(){
 	var divId = "#nav-"+$(this).attr("id");
 	$(divId).parent().addClass("nav-active");
 });
+
