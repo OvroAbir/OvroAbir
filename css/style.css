@@ -98,13 +98,13 @@ myspan
 	color: rgb(206, 165, 37);
 	font-size: 66px;
 	animation-name: myname-animation;
-	animation-duration: 2s;
+	animation-duration: 3s;
 	animation-iteration-count: infinite; 
 }
 @keyframes myname-animation
 {
-	from{color: yellow;}
-	to{color: blue;}
+	from{color: black;}
+	to{color: grey;}
 }
 
 
@@ -115,7 +115,7 @@ myspan
 }
 .education-link
 {
-	color: white;
+	color: black;
 }
 .education-link:link
 {
@@ -126,8 +126,24 @@ myspan
 .education-link:hover
 {
 	font-size: 102%;
-	color: rgb(255, 153, 255);
+	/*color: rgb(255, 153, 255);*/
 }
+.other-link
+{
+	color: black;
+	text-orientation: italic;
+	font-style: italic;
+}
+.other-link:link
+{
+	text-decoration: none;
+}
+
+.other-link:hover
+{
+	font-size: 102%;
+}
+
 h1
 {
 	font-size: 350%;
