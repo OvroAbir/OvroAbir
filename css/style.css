@@ -191,3 +191,8 @@ h2
 	background-color: rgb(25,25,112);
 	font-size: 15px;
 }
+
+.text-size-medium
+{
+	font-size: 20px;
+}
