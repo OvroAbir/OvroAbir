@@ -48,16 +48,16 @@ body
     color: #f39c12;
 }
 
-#nav-intro, #nav-about, #nav-education, #nav-contact, #nav-skill, #nav-portfolio
+#nav-intro, #nav-about, #nav-education, #nav-contact, #nav-skill, #nav-portfolio, #nav-hire
 {
 	width: 250px;
 	font-size: 100%;
 	transition: width .5s;
 }
-#nav-intro:hover, #nav-about:hover, #nav-education:hover, #nav-contact:hover, #nav-skill:hover, #nav-portfolio:hover
+#nav-intro:hover, #nav-about:hover, #nav-education:hover, #nav-contact:hover, #nav-skill:hover, #nav-portfolio:hover, #nav-hire:hover
 {
-	width: 150px;
-	font-size: 150%;
+	width: 180px;
+	font-size: 125%;
 }
 .nav-active
 {
@@ -195,4 +195,14 @@ h2
 .text-size-medium
 {
 	font-size: 20px;
+}
+
+.even-page
+{
+	background-color: rgb(153, 255, 255);
+}
+
+.odd-page
+{
+	background-color: rgb(224, 224, 224);
 }
