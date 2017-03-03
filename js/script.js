@@ -1,12 +1,13 @@
 
 $(window).load(function(){
   //==============___Page Loader___================
+  setTimeout(function(){
+    $('#page-loader').delay(300).fadeOut(500, function(){});
 
-  $('#page-loader').delay(300).fadeOut(400, function(){});
-
-  $('#loader-name').addClass('loader-left');
-  $('#loader-job').addClass('loader-right');
-  $('#loader-animation-id').addClass('loader-hide');
+    $('#loader-name').addClass('loader-left');
+    $('#loader-job').addClass('loader-right');
+    $('#loader-animation-id').addClass('loader-hide');
+  }, 2000);
 });
 
 //Begin - Document Ready
