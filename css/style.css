@@ -1,5 +1,6 @@
 body
 {
+	position: relative;
 	/*background-color: rgb(10, 10, 10);*/
 }
 .jumbotronMy
@@ -56,7 +57,7 @@ body
 }
 #nav-intro:hover, #nav-about:hover, #nav-education:hover, #nav-contact:hover, #nav-skill:hover, #nav-portfolio:hover, #nav-hire:hover
 {
-	width: 180px;
+	width: 185px;
 	font-size: 125%;
 }
 .nav-active
