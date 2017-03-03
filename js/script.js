@@ -7,7 +7,7 @@ $(window).load(function(){
     $('#loader-name').addClass('loader-left');
     $('#loader-job').addClass('loader-right');
     $('#loader-animation-id').addClass('loader-hide');
-  }, 2000);
+  }, 2500);
 });
 
 //Begin - Document Ready
