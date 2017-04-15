@@ -15,8 +15,10 @@ $(document).ready(function(){
 
 //==============___Page Loader___================
   $('#loading-wraper').fadeIn(300);
+  
+  //setting container width and height
+  $(".jumbotronMy").height($(window).height());
 });
-
 
 
 //navbar active color
@@ -31,10 +33,10 @@ $("#menu-toggle").click(function(e) {
     });
 
 AOS.init(
-	{
-      	duration: 600,
-      	easing: 'ease-out',
-      	delay: 100,
+  {
+  	duration: 600,
+  	easing: 'ease-out',
+  	delay: 100,
 		disable: 'mobile'
 	}
 );
