@@ -57,14 +57,19 @@ body
 }
 #nav-intro:hover, #nav-about:hover, #nav-education:hover, #nav-contact:hover, #nav-skill:hover, #nav-portfolio:hover, #nav-hire:hover
 {
-	width: 185px;
-	font-size: 125%;
+	width: 190px;
+	font-size: 120%;
 }
-.nav-active
+li.nav-active
 {
 	width: 250px;
-	font-size: 125%;
+	font-size: 120%;
 	background-color: rgb(51, 51, 51);
+}
+
+li.nav-active a
+{
+	color: white;
 }
 
 #nav-profile-img
