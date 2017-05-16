@@ -12,6 +12,7 @@ body
 	animation-duration: 1s;
 	animation-timing-function: ease-in;*/
     border-bottom: thick double black;
+    overflow: auto;
 }
 #hire-me-box
 {
