@@ -6,14 +6,24 @@ body
 .jumbotronMy
 {
 	position: relative;
+	/*min-height: 1500px;*/
 	/*background-image: url("../img/bg3.jpg");*/
-	height: 800px;
+	/*height: 800px;/
 	/*animation-name: jumbotron-animation;
 	animation-duration: 1s;
 	animation-timing-function: ease-in;*/
     border-bottom: thick double black;
-    overflow: auto;
+    /*overflow: auto;*/
+    overflow-x: hidden;
+    /*overflow-y: auto;*/
 }
+
+::webkit-scrollbar
+{
+	display: none;
+}
+
+
 #hire-me-box
 {
 	border: 2px solid;
