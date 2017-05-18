@@ -34,7 +34,7 @@ $("#menu-toggle").click(function(e) {
 
 AOS.init(
   {
-  	duration: 600,
+  	duration: 400,
   	easing: 'ease-out',
   	delay: 100,
 		disable: 'mobile'
@@ -42,7 +42,7 @@ AOS.init(
 );
 
 
-$(".jumbotronMy").mouseenter(function(){
+$(".jumbotronMy").mouseover(function(){
 	$(".sidebar-nav").find(".nav-active").removeClass("nav-active");
 	var divId = "#nav-"+$(this).attr("id");
 	$(divId).parent().addClass("nav-active");
