@@ -26,6 +26,17 @@ body
 	display: none;
 }
 
+.no-selection
+{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: default;
+}
+
 .img-circle
 {
 	border: 2px solid black;

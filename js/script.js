@@ -43,8 +43,19 @@ AOS.init(
 
 
 $(".jumbotronMy").mouseover(function(){
-	$(".sidebar-nav").find(".nav-active").removeClass("nav-active");
-	var divId = "#nav-"+$(this).attr("id");
-	$(divId).parent().addClass("nav-active");
+  $(".sidebar-nav").find(".nav-active").removeClass("nav-active");
+  var divId = "#nav-"+$(this).attr("id");
+  $(divId).parent().addClass("nav-active");
 });
 
+$(".jumbotronMy").mouseenter(function(){
+  $(".sidebar-nav").find(".nav-active").removeClass("nav-active");
+  var divId = "#nav-"+$(this).attr("id");
+  $(divId).parent().addClass("nav-active");
+});
+
+$(".jumbotronMy").scroll(function(){
+  $(".sidebar-nav").find(".nav-active").removeClass("nav-active");
+  var divId = "#nav-"+$(this).attr("id");
+  $(divId).parent().addClass("nav-active");
+});
