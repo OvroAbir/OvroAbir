@@ -66,3 +66,7 @@ $(".timeline-wrapper .timeline-content-item > span").on("mouseenter mouseleave",
   $(".timeline-wrapper .timeline-content-item.active").removeClass("active");
   $(this).parent().addClass("active");
 });
+
+$(".timeline-content-item").on("mouseleave", function(e){
+  $(this).removeClass("active");
+});
