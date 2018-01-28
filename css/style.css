@@ -41,7 +41,7 @@ body
 {
 	border: 2px solid black;
 }
-#hire-me-box
+#hire-me-box, .white-box
 {
 	border: 2px solid;
 	border-color: rgb(72, 209, 204);
@@ -52,6 +52,7 @@ body
 	padding: 40px;
 	display: inline-block;
 	background-color: white;
+	min-width: 100%;
 }
 .social
 {
@@ -288,4 +289,27 @@ h2
 td
 {
 	text-align: left;
+}
+
+#exp-position
+{
+	font-weight: 100;
+	font-style: italic;
+	margin-bottom: 0%;
+}
+
+#exp-time
+{
+	font-weight: normal;
+}
+
+.timeline-content-item-reveal a img
+{
+	background-color: white;
+	height: 100px;
+}
+
+#experience-text
+{
+	display: none;
 }
