@@ -8,8 +8,8 @@ var companies =
         position : "Junior Software Engineer",
         from : new Date("2018-02-01"),
         to : new Date(),
-        text : "",
-        tools : ["C++"]
+        text : "Worked on a project that can update existing operating system in IoT devices. Now working on projects with USIM",
+        tools : ["C++", "Java", "USIM"]
     },
     {
         name : "CTrends Software & Services Ltd.",
