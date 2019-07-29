@@ -21,7 +21,9 @@ body
     overflow-x: hidden;
     /*overflow-y: auto;*/
     padding-top: 3px;
-    padding-bottom: 3px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
 	z-index: 1010;
 	/* background-color: white; */
 }
@@ -46,6 +48,7 @@ body
 {
 	border: 2px solid black;
 }
+
 #hire-me-box, .white-box
 {
 	border: 2px solid;
@@ -122,13 +125,9 @@ li.nav-active a
 
 #nav-profile-img
 {
-	/*margin-top: 50px;*/
 	width: 300px;
 	z-index: 50;
-	/*margin-bottom: 50px;
-	/*margin-left: 20px;
-	padding-top: 50px;
-	padding-bottom: 50px;*/
+	border-color: black;
 }
 
 #front-page-name
@@ -325,4 +324,10 @@ td
 	margin: 0px 10px 0px 10px;
 	padding: 0px 10px 0px 10px;
 	width: inherit;
+}
+
+.github-logo
+{
+	width: 50%;
+	height: 50%;
 }
