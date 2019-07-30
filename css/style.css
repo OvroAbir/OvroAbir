@@ -10,22 +10,15 @@ body
 .jumbotronMy
 {
 	position: relative;
-	/*min-height: 1500px;*/
-	/*background-image: url("../img/bg3.jpg");*/
-	/*height: 800px;/
-	/*animation-name: jumbotron-animation;
-	animation-duration: 1s;
-	animation-timing-function: ease-in;*/
     border-bottom: thick double black;
     /*overflow: auto;*/
     overflow-x: hidden;
-    /*overflow-y: auto;*/
+    overflow-y: hidden;
     padding-top: 3px;
 	padding-bottom: 3px;
 	padding-left: 10px;
 	padding-right: 10px;
-	z-index: 1010;
-	/* background-color: white; */
+	/* z-index: 1010; */
 }
 
 ::webkit-scrollbar
@@ -62,11 +55,18 @@ body
 	background-color: white;
 	min-width: 100%;
 }
+
+#left-btn-group
+{
+	position: absolute;
+	bottom: 5%;
+	padding-left: 25%;
+
+}
+
 .social
 {
-	position: relative;
-	top: 550px;
-	z-index: 101;
+	/* z-index: 1010; */
 	height: 25px;
 	width: 25px;
 	background-color: #323131;
@@ -100,13 +100,13 @@ body
     color: #f39c12;
 }
 
-#nav-intro, #nav-about, #nav-education, #nav-contact, #nav-skill, #nav-portfolio, #nav-hire
+#nav-intro, #nav-about, #nav-education, #nav-contact, #nav-skill, #nav-portfolio, #nav-resume, #nav-hire
 {
 	width: 250px;
 	font-size: 100%;
 	transition: width .5s;
 }
-#nav-intro:hover, #nav-about:hover, #nav-education:hover, #nav-contact:hover, #nav-skill:hover, #nav-portfolio:hover, #nav-hire:hover
+#nav-intro:hover, #nav-about:hover, #nav-education:hover, #nav-contact:hover, #nav-skill:hover, #nav-portfolio:hover, #nav-resume:hover, #nav-hire:hover
 {
 	width: 190px;
 	font-size: 120%;
@@ -136,14 +136,12 @@ li.nav-active a
 	margin-bottom: 40px;
 	font-family: 'Aref Ruqaa', serif;
 	font-size: 60px;
-	/*color: white;*/
 }
 
 #front-page-text
 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
-	/*color: white;*/
 	margin-top: 30px;
 }
 #job-situation
@@ -335,4 +333,11 @@ td
 .my-grid
 {
 	margin-top: 10px;
+}
+
+#embed-resume
+{
+	height: 520px;
+	width: 520px; 
+	padding-bottom: 10px;
 }
