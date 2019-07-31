@@ -72,7 +72,7 @@ body
 {
 	position: absolute;
 	bottom: 5%;
-	padding-left: 25%;
+	padding-left: 30%;
 
 }
 
@@ -98,6 +98,10 @@ body
 .social:hover
 {
 	font-size: 18px;
+}
+#mail-icon-left:hover
+{
+	background-color: #F56505;
 }
 #facebook-icon:hover 
 {
