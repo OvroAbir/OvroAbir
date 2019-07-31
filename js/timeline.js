@@ -7,9 +7,23 @@ var companies =
         logo : "img/kona-logo.png",
         position : "Junior Software Engineer",
         from : new Date("2018-02-01"),
-        to : new Date(),
-        text : "",
-        tools : ["C++"]
+        to : new Date("2019-05-23"),
+        text : 
+        "<ul class=\"list-unstyled\">" +
+            "<li>" +
+                "Worked on a project that can update an existing Operating System in IOT devices." +
+                "<ul>" +
+                    "<li> Worked with C, u-boot, wandboard quad.</li>" +
+                "</ul>" +
+            "</li>" +
+            "<li>" +
+                "Worked on a project to reduce read-write time, 4G authentication time in USIM." +
+                "<ul>" +
+                    "<li> Worked with Java, USIM card.</li>" +
+                "</ul>" +
+            "</li>" +
+        "</ul>",
+        tools : []
     },
     {
         name : "CTrends Software & Services Ltd.",
@@ -84,7 +98,11 @@ function changeCompanyBlockText(companyIndex)
     for(var i=0;i<c.tools.length-1;i++)
         wtxt = wtxt + c.tools[i] + ", "
     wtxt = wtxt + c.tools[c.tools.length-1] + ".";
-    $("#exp-tool").html(wtxt);
+    
+    if(c.tools.length != 0)
+        $("#exp-tool").html(wtxt);
+    else
+        $("#exp-tool").html("");
 }
 
 

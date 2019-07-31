@@ -45,11 +45,11 @@ body
 {
 	border: 2px solid;
 	border-color: rgb(72, 209, 204);
-	border-radius: 20px;
+	border-radius: 10px;
 
 	text-align: left justify;
 	margin: auto;
-	padding: 40px;
+	padding: 20px;
 	display: inline-block;
 	background-color: white;
 	min-width: 100%;
@@ -78,7 +78,7 @@ body
 
 .progress
 {
-	height: 3px !important;
+	height: 3px;
 }
 
 .social
@@ -258,31 +258,6 @@ h2
 .div-space-little
 {
 	height: 20px;
-}
-.progress
-{
-	height: 19px;
-}
-
-.progressbar-suck
-{
-	background-color: rgb(100,149,237);
-	font-size: 15px;
-}
-.progressbar-little
-{
-	background-color: rgb(65,105,225);
-	font-size: 15px;
-}
-.progressbar-good
-{
-	background-color: rgb(0, 0, 255);
-	font-size: 15px;
-}
-.progressbar-guru
-{
-	background-color: rgb(25,25,112);
-	font-size: 15px;
 }
 
 .text-size-medium
