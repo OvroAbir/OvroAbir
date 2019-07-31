@@ -18,7 +18,6 @@ body
 	padding-bottom: 3px;
 	padding-left: 10px;
 	padding-right: 10px;
-	/* z-index: 1010; */
 }
 
 ::webkit-scrollbar
@@ -56,6 +55,19 @@ body
 	min-width: 100%;
 }
 
+.white-skill-box
+{
+	border: 2px solid;
+	border-color: rgb(72, 209, 204);
+	border-radius: 10px;
+	min-width: 100%;
+	text-align: left justify;
+	margin: 5px; 
+	padding: 10px;
+	display: inline-block;
+	background-color: white;
+}
+
 #left-btn-group
 {
 	position: absolute;
@@ -64,9 +76,13 @@ body
 
 }
 
+.progress
+{
+	height: 3px !important;
+}
+
 .social
 {
-	/* z-index: 1010; */
 	height: 25px;
 	width: 25px;
 	background-color: #323131;
@@ -337,7 +353,14 @@ td
 
 #embed-resume
 {
-	height: 520px;
+	/* height: 520px;
 	width: 520px; 
-	padding-bottom: 10px;
+	padding-bottom: 10px; */
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.hide-it
+{
+	visibility: hidden;
 }
