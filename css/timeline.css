@@ -3,7 +3,7 @@
   width: 90%;
   height: 15rem;
   position: relative;
-  color: #fff;
+  color: black;
   text-align: center;
   margin: 0 auto;
 }
@@ -11,12 +11,12 @@
   display: block;
   width: 93.9%;
   height: 1px;
-  background: white;
+  background: black;
   position: absolute;
   top: 50%;
-  -webkit-box-shadow: 0 0 1px black;
-  -moz-box-shadow: 0 0 1px black;
-  box-shadow: 0 0 1px black;
+  -webkit-box-shadow: 0 0 2px black;
+  -moz-box-shadow: 0 0 2px black;
+  box-shadow: 0 0 2px black;
   left: 3%;
   margin-left: 2.5px;
 }
@@ -37,14 +37,14 @@
   z-index: 1;
 }
 .timeline-wrapper .timeline-content-item > span {
-  height: 2rem;
+  height: 3rem;
   display: block;
   font-weight: bold;
   position: absolute;
   top: 50%;
   margin-top: -.25em;
   width: 100%;
-  text-shadow: 0 0 2px black;
+  text-shadow: 0 0 1px black;
   cursor: pointer;
 }
 .timeline-wrapper .timeline-content-item > span:before {
@@ -52,7 +52,7 @@
   display: block;
   width: .5em;
   height: .5em;
-  background: white;
+  background: black;
   margin: 0 auto .5em auto;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -75,16 +75,16 @@
   height: 100%;
 }
 .timeline-wrapper .timeline-content-item .timeline-content-item-reveal a img {
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
+  -moz-border-radius: 15%;
+  -webkit-border-radius: 15%;
+  border-radius: 15%;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   max-height: 100%;
   max-width: 100%;
-  border: 3px solid white;
+  border: 5px solid white;
   -webkit-box-shadow: 0 0 2px black;
   -moz-box-shadow: 0 0 2px black;
   box-shadow: 0 0 2px black;
@@ -96,12 +96,12 @@
   bottom: -2rem;
   left: 0;
   font-family: serif;
-  font-size: 1.3em;
+  font-size: 3em;
   font-style: italic;
   text-decoration: none;
   white-space: nowrap;
   color: white;
-  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5), 0 0 1px black;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.5), 0 0 1px black;
 }
 .timeline-wrapper .timeline-content-item .timeline-content-item-reveal a span:after {
   content: "\203A";

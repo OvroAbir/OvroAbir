@@ -55,13 +55,19 @@ body
 	min-width: 100%;
 }
 
+.skill-group-label
+{
+	width: 100%;
+	text-align: center;
+}
+
 .white-skill-box
 {
 	border: 2px solid;
 	border-color: rgb(72, 209, 204);
 	border-radius: 10px;
 	min-width: 100%;
-	text-align: left justify;
+	/* text-align: left justify; */
 	margin: 5px; 
 	padding: 10px;
 	display: inline-block;
