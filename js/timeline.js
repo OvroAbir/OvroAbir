@@ -2,9 +2,9 @@ var companies =
 [
     {
         name : "Kona Software Lab Limited, Bangladesh",
-        short_name : "KONA SL",
-        url : "https://www.konai.com",
-        logo : "img/kona-logo.png",
+        short_name : "Kona Software Lab",
+        url : "https://konasl.com",
+        logo : "https://konasl.com/wp-content/uploads/2019/07/KonaSL-Color-e1563437856151.png",
         position : "Junior Software Engineer",
         from : new Date("2018-02-01"),
         to : new Date("2019-05-23"),
